@@ -17,5 +17,18 @@
     align-items: center;
 }
 
+header {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: center;
+    padding: 2.5rem 2.5rem 0 2.5rem;
+    align-items: flex-end;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    position: relative;
+}
+
+
+
 /*  React, ExpressJs, NodeJs, MongoDB, Tailwind, Bootstrap, Jest
 Java, GIT, NPM, yarn, Visual Studio */

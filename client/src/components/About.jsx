@@ -2,19 +2,19 @@ import React from 'react'
 
 export default function About() {
   return (
-    <div className='grid md:grid-cols-2 grid-rows-6 h-screen container mx-auto text-3xl'>
+    <div id='about-page' className='grid  md:grid-cols-2 md:grid-rows-6 min-h-screen container mx-auto text-xl'>
 
-      <header className=' col-span-full flex justify-center items-end text-5xl'>About</header>
+      <header>About</header>
 
-      <section className='flex items-center row-span-4'>
+      <section className='flex items-center p-12 md:row-span-4'>
         As an aspiring full-stack developer with a focus on front-end development,
         I strive to translate designs into responsive, functional and high-performance
         web applications. I'm inspired by visually appealing and user-friendly websites, and am commited
         to learning the necessary and latest technologies in order to bring the most value to my projects.
       </section>
       
-      <section className='flex justify-center items-center row-span-4'>
-        <div className='grid grid-cols-4 grid-rows-4 gap-4'>
+      <section className='flex justify-center items-center lg:row-span-4'>
+        <div className='grid grid-cols-4 grid-rows-4 gap-5'>
 
           <div className='tech-set'>
           <i className="devicon-html5-plain colored tech-icon"></i>
