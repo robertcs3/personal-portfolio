@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.tech-icon-name {
+    font-size: 1rem;
+}
+
+.tech-icon {
+    font-size: 3.75rem/* 60px */;
+    line-height: 1;
+}
+
+.tech-set {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*  React, ExpressJs, NodeJs, MongoDB, Tailwind, Bootstrap, Jest
+Java, GIT, NPM, yarn, Visual Studio */
