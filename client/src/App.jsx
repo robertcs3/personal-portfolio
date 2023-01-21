@@ -10,7 +10,7 @@ function App() {
   
   return (
     <BrowserRouter>
-      <div className='bg-zinc-900 text-white'>
+      <div className='bg-neutral-900 text-slate-100'>
         <Home/>
         <Navbar/>
         <About/>

@@ -18,12 +18,12 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
   return (
-    <nav id='nav-bar' className="bg-teal-500 p-6"  ref={navbarRef}>
-        <div className='flex sm:justify-end justify-center container mx-auto'>
-          <Link className=" text-teal-200 hover:text-white mr-4">Home</Link>
-          <Link className=" text-teal-200 hover:text-white mr-4">About</Link>
-          <Link className=" text-teal-200 hover:text-white mr-4">Projects</Link>
-          <Link className=" text-teal-200 hover:text-white mr-4">Contact</Link>
+    <nav id='nav-bar' className="bg-slate-800 bg-opacity-40 p-6"  ref={navbarRef}>
+        <div className='flex sm:justify-end justify-center container mx-auto '>
+          <Link className="  hover:text-white mr-4">Home</Link>
+          <Link className="  hover:text-white mr-4">About</Link>
+          <Link className="  hover:text-white mr-4">Projects</Link>
+          <Link className="  hover:text-white mr-4">Contact</Link>
         </div>
     </nav>
   )
