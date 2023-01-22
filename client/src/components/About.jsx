@@ -2,18 +2,18 @@ import React from 'react'
 
 export default function About() {
   return (
-    <div id='about-page' className='grid  lg:grid-cols-2 lg:grid-rows-4 min-h-min container mx-auto text-xl'>
+    <div id='about-page' className='grid  lg:grid-cols-2 lg:auto-rows-min min-h-min container mx-auto text-xl my-12'>
 
       <header>About</header>
 
-      <section className='flex items-center p-12 lg:row-start-3 lg:row-end-4'>
+      <section className='flex items-center p-12 lg:row-start-3 lg:row-end-4 text-center'>
         As an aspiring full-stack developer with a focus on front-end development,
         I strive to translate designs into responsive, functional and high-performance
         web applications. I'm inspired by visually appealing and user-friendly websites, and am commited
         to learning the necessary and latest technologies in order to bring the most value to my projects.
       </section>
       
-      <section className='flex justify-center items-center lg:row-start-2 lg:row-end-4'>
+      <section className='flex justify-center items-center lg:row-start-2 lg:row-end-4 p-12'>
         <div className='grid grid-cols-4 grid-rows-4 gap-5'>
 
           <div className='tech-set'>
@@ -99,7 +99,7 @@ export default function About() {
         </div>
       </section>
 
-      <section className='flex justify-center items-center lg:row-start-4 lg:row-end-5 lg:col-span-full p-12'>
+      <section className='flex justify-center items-center lg:row-start-4 lg:row-end-5 lg:col-span-full p-12 text-center'>
         Outside of development, I enjoy calisthenics and competitive gaming.
       </section>
     </div>
