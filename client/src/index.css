@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    min-width: 375px;
+}
+
 .tech-icon-name {
     font-size: 1rem;
 }
@@ -26,6 +30,9 @@ header {
     font-size: 2.25rem;
     line-height: 2.5rem;
 }
+
+
+
 
 
 
