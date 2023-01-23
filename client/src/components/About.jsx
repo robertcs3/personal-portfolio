@@ -2,19 +2,28 @@ import React from 'react'
 
 export default function About() {
   return (
-    <div id='about-page' className='grid  lg:grid-cols-2 lg:auto-rows-min min-h-min container mx-auto text-xl my-12'>
+    <div id='about-page' className='grid lg:grid-cols-2 lg:auto-rows-min min-h-min container mx-auto text-xl my-12'>
 
       <header>About</header>
 
-      <section className='flex items-center p-12 lg:row-start-3 lg:row-end-4 text-center'>
-        As an aspiring full-stack developer with a focus on front-end development,
-        I strive to translate designs into responsive, functional and high-performance
-        web applications. I'm inspired by visually appealing and user-friendly websites, and am commited
-        to learning the necessary and latest technologies in order to bring the most value to my projects.
+      <div className='flex justify-center'>
+        <img className=' rounded-full h-56 ' src="https://res.cloudinary.com/dbwb3uyii/image/upload/v1674435656/portfolio/fotor_2023-1-22_18_59_26_iaco7z.png" alt="profile-picture" />
+        </div>
+
+      <section className='p-12 lg:row-start-3 lg:row-end-4 text-center md:text-left '>
+        <p>
+          As an aspiring full-stack developer with a focus on front-end development,
+          I strive to translate designs into responsive, functional and high-performance
+          web applications.
+        </p> 
+        <p>
+          I'm inspired by visually appealing and user-friendly websites, and am commited
+          to learning the necessary and latest technologies in order to bring the most value to my projects.
+        </p>
       </section>
       
       <section className='flex justify-center items-center lg:row-start-2 lg:row-end-4 p-12'>
-        <div className='grid grid-cols-4 grid-rows-4 gap-5'>
+        <div className='grid grid-cols-4 grid-rows-4 gap-7'>
 
           <div className='tech-set'>
           <i className="devicon-html5-plain colored tech-icon"></i>
