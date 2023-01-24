@@ -10,10 +10,10 @@ export default function Navbar() {
         const aboutComponent = document.getElementById('about-page')
          if (homePosition <= 0) {
           navbarRef.current.classList.add('fixed', 'top-0', 'left-0', 'w-full');
-          aboutComponent.classList.add('mt-28');
+          aboutComponent.classList.add('mt-16');
         } else {
           navbarRef.current.classList.remove('fixed', 'top-0', 'w-full');
-          aboutComponent.classList.remove('mt-28');
+          aboutComponent.classList.remove('mt-16');
         } 
       }
     };

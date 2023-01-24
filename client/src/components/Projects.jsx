@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Projects() {
   return (
-    <div id='projects-page' className='grid lg:grid-cols-2 lg:auto-rows-min container mx-auto text-xl mb-12'>
+    <div id='projects-page' className='grid lg:grid-cols-2  lg:auto-rows-min container mx-auto text-xl pt-12 mb-12'>
 
       <header>Projects</header>
 

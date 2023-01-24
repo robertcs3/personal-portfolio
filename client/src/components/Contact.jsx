@@ -13,7 +13,7 @@ export default function Contact() {
 
 
   return (
-    <div id='contact-page' className='flex flex-col items-center container mx-auto text-lg mb-12'>
+    <div id='contact-page' className='flex flex-col items-center container mx-auto text-lg pt-12 mb-12'>
       <header>Contact</header>
 
       <p className='mb-10 w-full sm:max-w-lg'>If you have an opportunity to share, or would like to discuss anything, feel free to leave me a message below!</p>
