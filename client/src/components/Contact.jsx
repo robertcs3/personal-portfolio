@@ -13,10 +13,10 @@ export default function Contact() {
 
 
   return (
-    <div id='contact-page' className='flex flex-col items-center container mx-auto text-lg pt-12 mb-12'>
+    <div id='contact-page' className='flex flex-col items-center container mx-auto pt-12 mb-12'>
       <header>Contact</header>
 
-      <p className='mb-10 w-full sm:max-w-lg'>If you have an opportunity to share, or would like to discuss anything, feel free to leave me a message below!</p>
+      <p className='mb-10 w-full sm:max-w-lg px-12 md:text-left text-center'>If you have an opportunity to share, or would like to discuss anything, feel free to leave me a message below!</p>
       <Formik
         validationSchema={schema}
         initialValues={{
@@ -60,7 +60,7 @@ export default function Contact() {
           handleSubmit,
         }) => (
 
-          <form onSubmit={handleSubmit} className='flex flex-col gap-3 w-full sm:max-w-lg' >
+          <form onSubmit={handleSubmit} className='flex flex-col gap-3 w-full px-12 sm:max-w-lg' >
             <input className='bg-slate-800 py-1 pl-1 ' type="text" name='name' placeholder='Name' onChange={handleChange} onBlur={handleBlur} value={values.name} required />
 
             <input className='bg-slate-800 py-1 pl-1' type="email" placeholder='E-mail' name='email' onChange={handleChange} onBlur={handleBlur} value={values.email} required />
