@@ -9,16 +9,19 @@ import Footer from './components/Footer';
 function App() {
   
   return (
-    <BrowserRouter>
-      <div className='bg-neutral-900 text-sm md:text-base lg:text-lg text-slate-100'>
-        <Home/>
-        <Navbar/>
-        <About/>
-        <Projects/>
-        <Contact/>
-        <Footer/>
-      </div>
-    </BrowserRouter>
+    
+    <div>
+      <BrowserRouter>
+        <div className=' text-sm md:text-base lg:text-lg text-slate-100'>
+          <Home/>
+          <Navbar/>
+          <About/>
+          <Projects/>
+          <Contact/>
+          <Footer/>
+        </div>
+      </BrowserRouter>
+    </div>
   )
 }
 
