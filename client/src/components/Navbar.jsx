@@ -32,7 +32,7 @@ export default function Navbar() {
           setActiveComponent(`#${id}`)
         }
       })
-    }, { threshold: [0.8] });
+    }, { threshold: [0.5]});
   
     const components = document.querySelectorAll('.section');
     components.forEach((component) => {
