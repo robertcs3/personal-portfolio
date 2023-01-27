@@ -4,20 +4,22 @@ export default function About() {
   return (
     <div id='about-page' className='grid lg:grid-cols-2 lg:auto-rows-min min-h-min container mx-auto pt-12 mb-12 section'>
 
-      <header >About</header>
+      <div className='col-span-full flex justify-center p-12 items-end text-4xl '>
+        <header>About</header>
+      </div>
 
       <div className='flex justify-center items-end'>
         <img className=' rounded-full h-56 ' src="https://res.cloudinary.com/dbwb3uyii/image/upload/v1674435656/portfolio/fotor_2023-1-22_18_59_26_iaco7z.png" alt="profile-picture" />
         </div>
 
-      <section className='p-12 lg:row-start-3 lg:row-end-4 text-center md:text-left '>
+      <section className='p-12 lg:row-start-3 lg:row-end-4 text-center md:text-left leading-relaxed '>
         <p>
           As a full-stack developer with a focus on front-end development,
           I strive to translate designs into responsive, functional and high-performance
           web applications.
         </p> 
         <p>
-          I'm inspired by visually appealing and user-friendly websites, and am commited
+          I'm inspired by visually appealing and user-friendly websites, and am driven
           to learning the necessary and latest technologies to bring the most value to my projects.
         </p>
       </section>
@@ -102,7 +104,7 @@ export default function About() {
 
           <div className="tech-set">
             <i className="devicon-visualstudio-plain colored tech-icon"></i>
-            <span className='tech-icon-name'>VS Code</span>
+            <span className='tech-icon-name whitespace-nowrap'>VS Code</span>
             </div>
 
         </div>

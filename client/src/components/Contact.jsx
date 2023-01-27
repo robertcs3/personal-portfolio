@@ -14,7 +14,10 @@ export default function Contact() {
 
   return (
     <div id='contact-page' className='flex flex-col items-center container mx-auto pt-12 mb-12 section'>
-      <header>Contact</header>
+
+      <div className='col-span-full flex justify-center p-12 items-end text-4xl'>
+        <header>Contact</header>
+      </div>
 
       <p className='mb-10 w-full sm:max-w-lg px-12 md:text-left text-center'>If you have an opportunity to share, or would like to discuss anything, feel free to leave me a message below!</p>
       <Formik
@@ -70,7 +73,7 @@ export default function Contact() {
 
 
             <div className='flex justify-end mb-12 pt-3'>
-              <button  id='submit' className=' bg-red-500 p-2 hover:rounded-lg duration-300' type='submit'>Submit</button>
+              <button id='submit' className=' bg-red-500 p-2 hover:rounded-lg duration-300' type='submit'>Submit</button>
             </div>
 
           </form>

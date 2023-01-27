@@ -51,7 +51,7 @@ export default function Shopifly() {
                 <div>
                   <Popover.Panel ref={setPopperElement} style={styles.popper}
                     {...attributes.popper} className='absolute'>
-                    <div className='xs:w-[260px]  sm:w-[300px] md:w-[390px] xl:w-[500px] h-min pb-1 bg-neutral-800 bg-opacity-90 rounded'>
+                    <div className='xs:w-[260px]  sm:w-[300px] md:w-[390px] xl:w-[500px] h-min pb-1 bg-slate-800 bg-opacity-90 rounded'>
                       <ul className='list-disc ml-6 pr-1'>
                         <li className='pt-1'>Full-stack e-commerce application built with React, Node.js, Express.js, MongoDB, and Typescript.</li>
                         <li className='pt-1'>User authentication with Passport.js.</li>
