@@ -57,7 +57,7 @@ export default function Shopifly() {
                         <li className='pt-1'>User authentication with Passport.js.</li>
                         <li className='pt-1'>Users with admin privileges are granted CRUD functionalities to modify shop items.</li>
                         <li className='pt-1'>Used Formik and Yup for form validation.</li>
-                        <li className='pt-1'>Deployed on <a href="">Render</a></li>
+                        <li className='pt-1'>Deployed on <a href="https://shopifly.onrender.com/" className=' bg-red-500'>Render</a></li>
                       </ul>
                     </div>
                   </Popover.Panel>

@@ -62,7 +62,7 @@ export default function Projects() {
       {/* ------------------------------------------------------ */}
 
       {/* Project gif/img */}
-      <h2 className='lg:hidden text-center'><strong>Shopifly</strong></h2>
+      <h2 className='lg:hidden text-center pt-12'><strong>Personal Portfolio</strong></h2>
       <div className='flex justify-center lg:justify-end xs:px-12  xs:py-6 lg:p-12'>
         <img className='rounded-lg' src={isHovering ? "https://res.cloudinary.com/dbwb3uyii/image/upload/v1674849295/portfolio/portfolio-ss_h0gbqq.jpg"
           : "https://res.cloudinary.com/dbwb3uyii/image/upload/v1674849289/portfolio/portfolio_gif_bmcz2h.gif"} onMouseEnter={() => setIsHovering(true)}
@@ -75,8 +75,7 @@ export default function Projects() {
         <h2 className=' hidden lg:block text-2xl text-left'><strong>Personal Portfolio</strong></h2>
         <div className='  flex justify-evenly lg:flex-col row-span-5 '>
           <PersonalPortfolio />
-          <a href="https://shopifly.onrender.com/" className="bg-red-500 p-2 rounded-lg hover:scale-110 duration-300 w-min flex">Live</a>
-          <a href="https://github.com/robertcs3/shopifly-project" className="bg-red-500 p-2 rounded-lg hover:scale-110 duration-300 w-min">Repository</a>
+          <a href="https://github.com/robertcs3/personal-portfolio" className="bg-red-500 p-2 rounded-lg hover:scale-110 duration-300 w-min">Repository</a>
         </div>
       </div>
 
