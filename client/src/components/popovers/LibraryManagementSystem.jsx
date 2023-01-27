@@ -32,13 +32,13 @@ export default function LibraryManagementSystem() {
       setOffsetValue([0, 15]);
     } else {
       setPlacement("left");
-      setOffsetValue([0, 60]);
+      setOffsetValue([40, 60]);
     }
 
   }, [width]);
   return (
     <Popover className='relative'>
-            <Popover.Button ref={setReferenceElement}>Details</Popover.Button>
+            <Popover.Button ref={setReferenceElement} className="bg-red-500 p-2 rounded-lg hover:scale-110 duration-300">Details</Popover.Button>
               <Transition
                 as={Fragment}
                 enter="transition ease-out duration-200"
@@ -55,7 +55,10 @@ export default function LibraryManagementSystem() {
                       <ul className='list-disc ml-6 pr-1'>
                         <li className='pt-1'>Collaborated with others to create a Library Management System
                         built with Java, Java Swing and CSV files.</li>
-                        <li className='pt-1'>Utilized UML (Unified Modeling Language) modeling software to design class, sequence, and use-case diagrams.</li>
+                        <li className='pt-1'>User authentication and user profile information display.</li>
+                        <li className='pt-1'>Users may checkout, request, request renew, and return items.</li>
+                        <li className='pt-1'>User accounts will accrue a fine if checked out items are overdue.</li>
+                  
                       </ul>
                     </div>
                   </Popover.Panel>

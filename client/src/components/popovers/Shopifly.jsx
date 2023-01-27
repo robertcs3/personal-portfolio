@@ -32,13 +32,13 @@ export default function Shopifly() {
       setOffsetValue([0, 15]);
     } else {
       setPlacement("right");
-      setOffsetValue([0, 60]);
+      setOffsetValue([15, 60]);
     }
 
   }, [width]);
   return (
     <Popover className='relative'>
-            <Popover.Button ref={setReferenceElement}>Details</Popover.Button>
+            <Popover.Button ref={setReferenceElement} className="bg-red-500 p-2 rounded-lg hover:scale-110 duration-300">Details</Popover.Button>
               <Transition
                 as={Fragment}
                 enter="transition ease-out duration-200"

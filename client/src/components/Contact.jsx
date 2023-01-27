@@ -70,7 +70,7 @@ export default function Contact() {
 
 
             <div className='flex justify-end mb-12 pt-3'>
-              <button id='submit' className='border' type='submit'>Submit</button>
+              <button  id='submit' className=' bg-red-500 p-2 hover:rounded-lg duration-300' type='submit'>Submit</button>
             </div>
 
           </form>

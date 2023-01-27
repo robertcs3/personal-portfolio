@@ -13,8 +13,8 @@ export default function Projects() {
 
       {/* Project gif/img */}
       <h2 className='lg:hidden text-center'><strong>Shopifly</strong></h2>
-      <div className='flex justify-center lg:justify-end '>
-        <img className='xs:px-12  xs:py-6 lg:p-12' src={isHovering ? "https://res.cloudinary.com/dbwb3uyii/image/upload/v1674555110/portfolio/shopifly-screenshot_ivzjbz.jpg"
+      <div className='flex justify-center lg:justify-end xs:px-12  xs:py-6 lg:p-12'>
+        <img className='rounded-lg' src={isHovering ? "https://res.cloudinary.com/dbwb3uyii/image/upload/v1674555110/portfolio/shopifly-screenshot_ivzjbz.jpg"
           : "https://res.cloudinary.com/dbwb3uyii/image/upload/v1674436873/portfolio/shopifly_adteby.gif"} onMouseEnter={() => setIsHovering(true)}
           onMouseLeave={() => setIsHovering(false)} alt="shop-gif" />
       </div>
@@ -25,8 +25,8 @@ export default function Projects() {
       <h2 className=' hidden lg:block text-2xl text-left'><strong>Shopifly</strong></h2>
         <div className='  flex justify-evenly lg:flex-col row-span-5 '>
           <Shopifly />
-          <a href="">Live</a>
-          <a href="">Repository</a>
+          <a href="" className="bg-red-500 p-2 rounded-lg hover:scale-110 duration-300 w-min flex">Live</a>
+          <a href="" className="bg-red-500 p-2 rounded-lg hover:scale-110 duration-300 w-min">Repository</a>
         </div>
       </div>
 
@@ -36,17 +36,25 @@ export default function Projects() {
       <h2 className=' text-2xl text-right'><strong>Library Management System</strong></h2>
         <div className='flex justify-evenly lg:flex-col lg:items-end row-span-5 '>
           <LibraryManagementSystem />
-          <a href="">Live</a>
-          <a href="">Repository</a>
+          <a href="" className="bg-red-500 p-2 rounded-lg hover:scale-110 duration-300">Live</a>
+          <a href="" className="bg-red-500 p-2 rounded-lg hover:scale-110 duration-300">Repository</a>
         </div>
       </div>
 
       {/* Project gif/img */}
       <h2 className='lg:hidden text-center pt-12'><strong>Library Management System</strong></h2>
-      <div className='flex justify-center lg:justify-start '>
-        <img className='xs:px-12  xs:py-6 lg:p-12' src={isHovering ? "https://res.cloudinary.com/dbwb3uyii/image/upload/v1674555310/portfolio/Library-ss_zgchrc.jpg"
+      <div className='flex justify-center lg:justify-start xs:px-12  xs:py-6 lg:p-12 '>
+        <img className='rounded-lg' src={isHovering ? "https://res.cloudinary.com/dbwb3uyii/image/upload/v1674555310/portfolio/Library-ss_zgchrc.jpg"
           : "https://res.cloudinary.com/dbwb3uyii/image/upload/v1674436780/portfolio/library-management-system_qhiniv.gif"} onMouseEnter={() => setIsHovering(true)}
           onMouseLeave={() => setIsHovering(false)} alt="shop-gif" />
+      </div>
+
+      <div className='lg:hidden'>
+        <div className='flex justify-evenly'>
+          <LibraryManagementSystem />
+          <a href="" className="bg-red-500 p-2 rounded-lg hover:scale-110 duration-300">Live</a>
+          <a href="" className="bg-red-500 p-2 rounded-lg hover:scale-110 duration-300">Repository</a>
+        </div>
       </div>
       
 
