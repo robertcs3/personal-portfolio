@@ -2,7 +2,7 @@ import React, { useState, Fragment, useEffect } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { usePopper } from 'react-popper'
 
-export default function LibraryManagementSystem() {
+export default function PersonalPortfolio() {
   const [referenceElement, setReferenceElement] = useState(null);
   const [popperElement, setPopperElement] = useState(null);
   const [width, setWidth] = useState(window.innerWidth);
@@ -31,8 +31,8 @@ export default function LibraryManagementSystem() {
       setPlacement("top-end");
       setOffsetValue([0, 15]);
     } else {
-      setPlacement("left");
-      setOffsetValue([40, 60]);
+      setPlacement("right");
+      setOffsetValue([15, 60]);
     }
 
   }, [width]);
@@ -53,12 +53,10 @@ export default function LibraryManagementSystem() {
                     {...attributes.popper} className='absolute'>
                     <div className='xs:w-[260px]  sm:w-[300px] md:w-[390px] xl:w-[500px] h-min pb-1 bg-slate-800 bg-opacity-90 rounded'>
                       <ul className='list-disc ml-6 pr-1'>
-                        <li className='pt-1'>Collaborated with others to create a Library Management System
-                        built with Java, Java Swing and CSV files.</li>
-                        <li className='pt-1'>User authentication and user profile information display.</li>
-                        <li className='pt-1'>Users may checkout, request, request renew, and return items.</li>
-                        <li className='pt-1'>User accounts will accrue a fine if checked out items are overdue.</li>
-                  
+                        <li className='pt-1'>Hey! You're already here!</li>
+                        <li className='pt-1'>Built with React and Tailwind CSS.</li>
+                        <li className='pt-1'>Used Formik and Yup for form validation.</li>
+                        <li className='pt-1'>Used Headless UI and Framer Motion for transitions and animations.</li>
                       </ul>
                     </div>
                   </Popover.Panel>

@@ -1,6 +1,6 @@
 import React, { useState, Fragment, useEffect } from 'react'
 import { Popover, Transition } from '@headlessui/react'
-import { usePopper, Popper } from 'react-popper'
+import { usePopper } from 'react-popper'
 
 export default function Shopifly() {
   const [referenceElement, setReferenceElement] = useState(null);
@@ -55,7 +55,8 @@ export default function Shopifly() {
                       <ul className='list-disc ml-6 pr-1'>
                         <li className='pt-1'>Full-stack e-commerce application built with React, Node.js, Express.js, MongoDB, and Typescript.</li>
                         <li className='pt-1'>User authentication with Passport.js.</li>
-                        <li className='pt-1'>Users with admin privileges are granted CRUD functionalities to modify shop items</li>
+                        <li className='pt-1'>Users with admin privileges are granted CRUD functionalities to modify shop items.</li>
+                        <li className='pt-1'>Used Formik and Yup for form validation.</li>
                         <li className='pt-1'>Deployed on <a href="">Render</a></li>
                       </ul>
                     </div>

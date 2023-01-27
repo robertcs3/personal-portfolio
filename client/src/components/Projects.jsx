@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Shopifly from './popovers/Shopifly';
 import LibraryManagementSystem from './popovers/LibraryManagementSystem';
+import PersonalPortfolio from './popovers/PersonalPortfolio';
 
 export default function Projects() {
   const [isHovering, setIsHovering] = useState(false);
@@ -55,6 +56,27 @@ export default function Projects() {
         <div className='flex justify-evenly'>
           <LibraryManagementSystem />
           <a href="https://github.com/robertcs3/group14SE" className="bg-red-500 p-2 rounded-lg hover:scale-110 duration-300">Repository</a>
+        </div>
+      </div>
+
+      {/* ------------------------------------------------------ */}
+
+      {/* Project gif/img */}
+      <h2 className='lg:hidden text-center'><strong>Shopifly</strong></h2>
+      <div className='flex justify-center lg:justify-end xs:px-12  xs:py-6 lg:p-12'>
+        <img className='rounded-lg' src={isHovering ? "https://res.cloudinary.com/dbwb3uyii/image/upload/v1674849295/portfolio/portfolio-ss_h0gbqq.jpg"
+          : "https://res.cloudinary.com/dbwb3uyii/image/upload/v1674849289/portfolio/portfolio_gif_bmcz2h.gif"} onMouseEnter={() => setIsHovering(true)}
+          onMouseLeave={() => setIsHovering(false)} alt="shop-gif" />
+      </div>
+
+
+      {/* Project Details */}
+      <div className='lg:grid lg:grid-rows-6 lg:py-12'>
+        <h2 className=' hidden lg:block text-2xl text-left'><strong>Personal Portfolio</strong></h2>
+        <div className='  flex justify-evenly lg:flex-col row-span-5 '>
+          <PersonalPortfolio />
+          <a href="https://shopifly.onrender.com/" className="bg-red-500 p-2 rounded-lg hover:scale-110 duration-300 w-min flex">Live</a>
+          <a href="https://github.com/robertcs3/shopifly-project" className="bg-red-500 p-2 rounded-lg hover:scale-110 duration-300 w-min">Repository</a>
         </div>
       </div>
 

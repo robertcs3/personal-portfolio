@@ -19,25 +19,29 @@ export default function Navbar() {
       }
 
     };
-
+    setUpObserver();
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        setActiveComponent(`#${entry.target.id}`)
-      }
-    })
-  }, { threshold: [0.8] });
-
-  const components = document.querySelectorAll('.section');
-  components.forEach((component) => {
-    observer.observe(component);
-  })
+  const setUpObserver = () => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          let id = entry.target.id;
+          setActiveComponent(`#${id}`)
+        }
+      })
+    }, { threshold: [0.8] });
   
+    const components = document.querySelectorAll('.section');
+    components.forEach((component) => {
+      observer.observe(component);
+    })
+  }
 
+
+  
 
   return (
     <nav id='nav-bar' className="bg-slate-800 bg-opacity-60 p-5" ref={navbarRef}>

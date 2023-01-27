@@ -15,12 +15,14 @@ export default function Home() {
       </motion.div>
 
       <motion.div initial={{opacity: 0, scale: 0.5}} animate={{ opacity: 1, scale: 1}} transition={{duration: 1, delay: 2.5, ease: [0, 0.71, 0.2, 1.01] }} 
-      className='mt-10 text-xl'>
+        className='mt-10 text-xl'>
         
-            <Link  to='#about-page' smooth className="bg-transparent border-2 border-red-500 py-2 px-4 rounded-lg text-center
-            transition ease-in-out hover:bg-red-500 duration-300">
-              Get to know me!
-            </Link>
+            <motion.div whileHover={{scale: 1.1}} transition={{ type: "spring", stiffness: 400, damping: 10 }}>
+              <Link  to='#about-page' smooth className="bg-transparent border-2 border-red-500 py-2 px-4 rounded-lg text-center
+              transition ease-in-out  hover:bg-red-500 duration-300">
+                Get to know me!
+              </Link>
+            </motion.div>
       </motion.div>
     </section>
   )
