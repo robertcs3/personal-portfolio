@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 export default function Home() {
   
   return (
-    <section id='home-page' className='h-screen container flex flex-col items-center justify-center mx-auto text-3xl'>
+    <section id='home-page' className='h-screen container flex flex-col items-center justify-center mx-auto text-3xl section'>
       <p>Hi, I'm <span className=' text-red-500'>Robert</span>.</p>
       <p>I'm a full-stack developer.</p>
       <div className='mt-10 text-xl'>

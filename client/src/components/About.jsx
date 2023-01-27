@@ -2,9 +2,9 @@ import React from 'react'
 
 export default function About() {
   return (
-    <div id='about-page' className='grid lg:grid-cols-2 lg:auto-rows-min min-h-min container mx-auto pt-12 mb-12'>
+    <div id='about-page' className='grid lg:grid-cols-2 lg:auto-rows-min min-h-min container mx-auto pt-12 mb-12 section'>
 
-      <header>About</header>
+      <header >About</header>
 
       <div className='flex justify-center items-end'>
         <img className=' rounded-full h-56 ' src="https://res.cloudinary.com/dbwb3uyii/image/upload/v1674435656/portfolio/fotor_2023-1-22_18_59_26_iaco7z.png" alt="profile-picture" />

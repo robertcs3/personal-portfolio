@@ -7,7 +7,7 @@ export default function Projects() {
  
   return (
 
-    <div id='projects-page' className='grid lg:grid-cols-2  lg:auto-rows-min container mx-auto  pt-12 mb-12 '>
+    <div id='projects-page' className='grid lg:grid-cols-2  lg:auto-rows-min container mx-auto  pt-12 mb-12 section'>
 
       <header>Projects</header>
 
