@@ -17,7 +17,7 @@ export default function Projects() {
       {/* Project gif/img */}
       <h2 className='lg:hidden text-center'><strong>Shopifly</strong></h2>
       <div className='flex justify-center lg:justify-end xs:px-12  xs:py-6 lg:p-12'>
-        <img className='rounded-lg' src={isHovering ? "https://res.cloudinary.com/dbwb3uyii/image/upload/v1675464307/portfolio/shopifly-ss_sxym03.jpg"
+        <img className='rounded-lg' src={isHovering ? "https://res.cloudinary.com/dbwb3uyii/image/upload/v1675464733/portfolio/shopifly-ss_xq9shq.jpg"
           : "https://res.cloudinary.com/dbwb3uyii/image/upload/v1675464290/portfolio/ezgif.com-gif-maker_pf0f2k.gif"} onMouseEnter={() => setIsHovering(true)}
           onMouseLeave={() => setIsHovering(false)} alt="shop-gif" />
       </div>
