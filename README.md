@@ -1,4 +1,4 @@
-# shopifly-project
+# personal-portfolio
 
 ![ss](https://res.cloudinary.com/dbwb3uyii/image/upload/v1675473808/portfolio/personalportfolioSS_zkhsp3.jpg)
 
