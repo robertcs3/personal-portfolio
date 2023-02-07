@@ -53,11 +53,11 @@ export default function LibraryManagementSystem() {
                     {...attributes.popper} className='absolute'>
                     <div className='xs:w-[260px]  sm:w-[300px] md:w-[390px] xl:w-[500px] h-min pb-1 bg-slate-800 bg-opacity-90 rounded'>
                       <ul className='list-disc ml-6 pr-1'>
-                        <li className='pt-1'>Collaborated with others to create a Library Management System
+                        <li className='pt-1'>Collaborated with 3 other group members to create a library management system
                         built with Java, Java Swing and CSV files.</li>
                         <li className='pt-1'>User authentication and user profile information display.</li>
-                        <li className='pt-1'>Users may checkout, request, request renew, and return items.</li>
-                        <li className='pt-1'>User accounts will accrue a fine if checked out items are overdue.</li>
+                        <li className='pt-1'>Users can checkout, request, request renew, and return items.</li>
+                        <li className='pt-1'>Fines are accrued on User accounts from overdue items.</li>
                   
                       </ul>
                     </div>

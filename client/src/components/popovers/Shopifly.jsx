@@ -53,10 +53,11 @@ export default function Shopifly() {
                     {...attributes.popper} className='absolute'>
                     <div className='xs:w-[260px]  sm:w-[300px] md:w-[390px] xl:w-[500px] h-min pb-1 bg-slate-800 bg-opacity-90 rounded'>
                       <ul className='list-disc ml-6 pr-1'>
-                        <li className='pt-1'>Full-stack e-commerce application built with React, Node.js, Express.js, MongoDB, and Typescript.</li>
+                        <li className='pt-1'>Full stack e-commerce application built with React, Node.js, Express.js, MongoDB, and Typescript.</li>
+                        <li className='pt-1'>RESTful API backend to serve JSON and stream images from the database to the client</li>
                         <li className='pt-1'>User authentication with Passport.js.</li>
-                        <li className='pt-1'>Users with admin privileges are granted CRUD functionalities to modify shop items.</li>
-                        <li className='pt-1'>Used Formik and Yup for form validation.</li>
+                        <li className='pt-1'>Users with admin privileges can create, update, and delete shop items.</li>
+                        <li className='pt-1'>Employed Formik and Yup for seamless form handling.</li>
                         <li className='pt-1'>Deployed on <a href="https://shopifly.onrender.com/" className=' text-red-500'>Render</a></li>
                       </ul>
                     </div>

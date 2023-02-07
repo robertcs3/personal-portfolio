@@ -55,8 +55,8 @@ export default function PersonalPortfolio() {
                       <ul className='list-disc ml-6 pr-1'>
                         <li className='pt-1'>Hey! You're already here!</li>
                         <li className='pt-1'>Built with React and Tailwind CSS.</li>
-                        <li className='pt-1'>Used Formik and Yup for form validation.</li>
-                        <li className='pt-1'>Used Headless UI and Framer Motion for transitions and animations.</li>
+                        <li className='pt-1'>Employed Formik and Yup for seamless form handling.</li>
+                        <li className='pt-1'>Headless UI and Framer Motion for transitions and animations.</li>
                       </ul>
                     </div>
                   </Popover.Panel>
