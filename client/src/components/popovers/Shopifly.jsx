@@ -55,6 +55,7 @@ export default function Shopifly() {
                       <ul className='list-disc ml-6 pr-1'>
                         <li className='pt-1'>Full stack e-commerce application built with React, Node.js, Express.js, MongoDB, and Typescript.</li>
                         <li className='pt-1'>RESTful API backend to serve JSON and stream images from the database to the client</li>
+                        <li className='pt-1'>Implemented Stripe payment system for user check-out</li>
                         <li className='pt-1'>User authentication with Passport.js.</li>
                         <li className='pt-1'>Users with admin privileges can create, update, and delete shop items.</li>
                         <li className='pt-1'>Employed Formik and Yup for seamless form handling.</li>
