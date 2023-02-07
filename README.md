@@ -1,6 +1,6 @@
 # personal-portfolio
 
-![ss](https://res.cloudinary.com/dbwb3uyii/image/upload/v1675750195/portfolio/shopifly-github-ss_q0hncc.jpg)
+![ss](https://res.cloudinary.com/dbwb3uyii/image/upload/v1675473808/portfolio/personalportfolioSS_zkhsp3.jpg)
 
 # Project Overview
 
