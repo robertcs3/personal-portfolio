@@ -11,8 +11,6 @@ Personal portfolio web application deployed on https://robert-stebbins.onrender.
 * Full responsive design for all screen sizes
 * Contact form that sends me an e-mail on every sent message
 * Spring-like animations
-* View shopping-cart and check-out history
-* CRUD functionalities with admin privileges
 
 ## Stack
 * Front-end: React | Javascript
